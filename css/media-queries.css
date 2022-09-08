@@ -85,9 +85,31 @@ span{
         display: flex;
         flex-direction: column;
     }
-    .alert-info{
+
+    h1{
 
     }
+
+    .alert-info{
+        visibility: hidden;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul{
+        margin: unset;
+        display: flex;
+        flex-direction: row;
+        /*justify-content: flex-end;*/
+    }
+    li{
+        background-color: unset;
+        width: unset;
+        height: unset;
+    }
+
 
 }
 

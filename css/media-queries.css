@@ -35,7 +35,6 @@ ul {
     align-items: center;
 
 
-
 }
 
 li{
@@ -43,7 +42,7 @@ li{
     display: flex;
     margin: 5px;
     background-color: #808080;
-    width: 9vw;
+    width: 95vw;
     height: 34px
 }
 
@@ -53,7 +52,6 @@ li{
         margin: 4px;
     }
 }
-
 
 
 

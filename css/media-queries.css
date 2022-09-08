@@ -88,12 +88,49 @@ span{
         display: flex;
         flex-direction: column;
     }
-    .alert-info{
 
+    h1 {
+        position: fixed;
+        left: 10px;
+        top: 65px;
     }
+    .alert-info{
+        visibility: hidden;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul{
+        margin: unset;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        /*justify-content: flex-end;*/
+    }
+
     h1 {
         align-items: flex-start;
     }
+
+    li{
+        background-color: unset;
+        width: unset;
+        height: unset;
+    }
+    img{
+        width: 890px;
+        height: 385px;
+    }
+
+    secton{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
 }
 
 

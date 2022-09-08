@@ -41,10 +41,10 @@ li{
     margin: 5px;
     background-color: #808080;
     width: 95vw;
-<<<<<<< HEAD
+
     height: 34px
 
-=======
+
     height: 34px;
     justify-content: center;
 
@@ -59,7 +59,6 @@ img{
     max-width: 100%;
     max-height: 224px;
     margin:auto;
->>>>>>> e58afc282ace68e6301d0e9a67c08cc62512932a
 }
 
 section p:first-child{

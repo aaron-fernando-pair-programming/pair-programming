@@ -1,11 +1,12 @@
+
+
 .alert-info{
     background-color: #CCFFFF;
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
     height: 7vh;
     align-items: center;
-
-
 }
 
 div a{
@@ -13,6 +14,13 @@ div a{
     color: #000000;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-links li{
+    justify-content: ;
+}
 
 h1{
     display: flex;
@@ -20,5 +28,11 @@ h1{
 }
 
 ul {
+    padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+

@@ -66,13 +66,30 @@ section p:last-of-type{
     margin-bottom: 10vh;
 
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 footer p {
     margin: 5vh 0;
 }
-/*}*/
-/*@media screen and (min-width:500px) and (max-width: 900px){*/
+span{
+    display: inline-block;
+}
 
-/*}*/
+
+@media screen and (min-width:900px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .alert-info{
+
+    }
+
+}
 
 
 
